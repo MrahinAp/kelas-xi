@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        p {
+            color: #00f;
+        }
+    
+    </style>
+</head>
+<body>
+    <p style="color: chartreuse; padding: 25px;"> 1. Inline CSS<br> <br> yang pertama adalah Inline CSS. Seperti namanya, kode CSS ini langsung ditempatkan di dalam baris kode HTML. Contohnya adalah seperti ini:
+h1 style="color:blue;text-align:center;">Ini adalah heading
+Jadi, kode HTML nya sendiri hanyalah penjelasan tentang heading. Namun, kode CSS dimasukkan untuk menambahkan style di sana, yaitu dengan menambahkan warna biru dan meratakan tulisan menjadi di tengah. 
+
+Yang terpenting dari Inline CSS adalah pengaruhnya. Style yang diberikan di sini spesifik hanya untuk heading, tidak untuk elemen HTML lainnya. </p>
+<img src="inline.jpg" alt="">
+<br>
+<br>
+    <p>2.Internal CSS <br> <br>Tipe yang terakhir adalah Internal CSS. Kurang lebih, tipe yang satu ini mirip dengan Inline CSS. Namun, kodenya tidak dituliskan di baris yang sama. 
+
+        Contohnya adalah sebagai berikut:
+        
+        head
+        style
+        body {
+          background-color: blue;
+        }
+        
+        h1 {
+          color: green;
+          margin-left: 40px;
+        }
+        /style
+        /head
+        Nah, itu dia kira-kira 3 Macam Style CSS yang wajib Anda ketahui. Dari penulisan kodenya, External CSS paling efektif untuk digunakan. Hal ini karena Anda hanya perlu mengganti file CSS saja, tanpa perlu menuliskan kode satu per satu. </p>
+        <img src="internal.jpg" alt="">
+    <h3>3.Eksternal CSS <br> <br> Inline CSS hanya mempengaruhi satu baris, External CSS bisa mempengaruhi keseluruhan website. Tentunya hal ini dilakukan dengan mengubah file CSS, tanpa perlu menuliskan kode secara berulang.
+
+        Perlu diperhatikan, ciri khas dari External CSS adalah menggunakan tag <head>. Setelah itu, baru sisipkan file CSS sesuai kebutuhan. Contohnya seperti ini:
+        
+        head
+        link rel="stylesheet" href="mystyle.css"
+        /head
+        “mystyle.css” adalah file CSS yang ingin Anda sisipkan. Nah, di dalam file tersebut, kurang lebih seperti ini gambarannya:</h3>
+        <img src="eksternal.jpg" alt="">
+</body>
+</html>
+
