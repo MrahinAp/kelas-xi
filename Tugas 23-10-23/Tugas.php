@@ -2,7 +2,7 @@
 
 //Muhamad Rahin Almasssyah Putra
 //XI-RPL 1
-echo "Bisma Putra Adiyana<br>";
+echo "Muhamad Rahin Almassyah Putra<br>";
 echo "XI-RPL 1<br><br><br>";
 
 echo "Soal no 1 <br><br>";
